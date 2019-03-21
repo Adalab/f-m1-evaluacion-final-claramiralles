@@ -1,12 +1,11 @@
 
 .page {
-    min-height: 100vh;
     min-width: 100vw;
     background: url("../images/cover.jpg") 
-    no-repeat center center fixed;
+    no-repeat center center;
     background-size: cover;
     max-width: 320px;
-    max-height: 568px;
+    min-height: 100vh;
   }
 .content {
     text-align: center;
@@ -28,10 +27,21 @@
     text-align: center;
     transform: translateY(-400px);
     height: 21px;
+    margin-top: 404px;
+}
+.arrow__container {
+  
+}
+.arrow-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: #ffffff;
+
 }
 .h1 {
     padding: 284px 15px 174px 15px;
-    margin: 0%;
+    margin-top: 0%;
 
 .h1-a {
         min-height: 120px;
