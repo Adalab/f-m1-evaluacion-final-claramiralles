@@ -7,13 +7,13 @@
 //Layout
 @import 'layout/base';
 @import 'layout/header';
-@import 'layout/hero';
-@import 'layout/section1';
-@import 'layout/section2';
 @import 'layout/footer';
 
 
 //Components
-@import './components/button';
+@import 'components/hero';
+@import 'components/section1';
+@import 'components/section2';
+@import 'components/button';
 
 
