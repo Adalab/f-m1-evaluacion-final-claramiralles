@@ -1,6 +1,9 @@
 .s1__container {
+    width: 320px;
     height: 376px;
-    background-color: blue;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .s1__h2 {
@@ -13,13 +16,66 @@
     font-stretch: normal;
     line-height: 2.14;
     letter-spacing: normal;
-    color: var(color_lightBlue);         
+    color: $color_lightBlue;  
+    padding-top: 30px;        
 }
 
-.s1__p{
+.s1__h3 {
+    width: 290px;
+    height: 60px;
+    font-family: RobotoSlab;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: $color_blackNight;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+.s1__p {
+    width: 290px;
+    height: 120px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: $color_greySilver;
+    padding-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .s1__button{
+    margin-top: 30px;
+    padding-bottom: 50px;
+    color: $color_orangeBright;
+    width: 75px;
+    height: 22px;
+    border-radius: 22.5px;
+    border: solid 1px var($color_orangeBright);
+    transform: translateX(40px);
+    transform: translateY(45px);
+    background-color: transparent;
+}
 
+.s1__button-text{
+    width: 25px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0px 26px 0px 26px;
+    color: $color_orangeBright;
 }
