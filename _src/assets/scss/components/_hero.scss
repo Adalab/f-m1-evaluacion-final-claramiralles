@@ -9,7 +9,7 @@
     height: 568px;
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     align-content: center;
 }
 
@@ -23,8 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-  
+    margin-bottom: 68px;
 
     & .tittle {
         min-height: 120px;
@@ -55,28 +54,19 @@
     color: #ffffff;
 }
 
-.habitasse__container {
-    display: flex;
-    text-align: center;
-}
-
-
 .arrow__container {
     content: "";
     border-radius: 30px;
     background-color:$color_whiteSnow;;
     width: 50px;
     height: 50px;
-    position: absolute;
-    left: 130px;
-    top: 82%;
+    margin-top: 63px;
   }
   
 .arrow-image {
     width: 35px;
     height: 35px;
-    margin-left: 8px;
-    margin-top: 2px;
+    margin-top: 1px;
     size: auto;
     border-radius: 22.5px;
     background-color:$color_whiteSnow;
