@@ -180,6 +180,7 @@
    border-radius: 200px;
    padding-bottom: 45px;
    display: inline;
+   border: solid 2px $color_orangeBright;
 
    @media all and (min-width:768px) {
       min-width: 184px auto;
