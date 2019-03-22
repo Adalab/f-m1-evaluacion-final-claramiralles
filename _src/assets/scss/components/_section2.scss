@@ -17,6 +17,14 @@
   text-align: center;
   min-width: 100% auto;
   margin: 30px 15px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: $color_blackNight;
 
       @media all and (min-width:768px) {
       min-width: 100% auto;  
@@ -29,20 +37,11 @@
 }
 }
 
-.tittle {
+.tittle_reason {
    width: 290px;
    height: 30px;
-   font-family: RobotoSlab;
-   font-size: 24px;
-   font-weight: bold;
-   font-style: normal;
-   font-stretch: normal;
-   line-height: 1.25;
-   letter-spacing: normal;
    text-align: center;
-   color: $color_blackNight;
-   width: 184px;
-   margin: 108px 68px;
+  
 
    @media all and (min-width:768px) {
       width: 450px; 
@@ -53,8 +52,7 @@
       @media all and (min-width:1200px) {
       width: 730px;   
       margin: 60px 275px;
-
-}
+      }
 }
 
 .list__container {
@@ -66,6 +64,7 @@
 }
 
 .list {
+   
    display: flex;
    flex-direction: column;
    justify-content: space-around;
@@ -91,21 +90,22 @@
    list-style-type: none;
    margin-top: 45px;
    margin-bottom: 45px;
+   width: 184px;
+   height: 30px;
+   font-family: RobotoSlab;
+   font-size: 18px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.67;
+   letter-spacing: normal;
+   text-align: center;
+   color: $color_blackNight;
+   max-width: 180px;
 }
 
 .ittem-tittle {
-      width: 184px;
-      height: 30px;
-      font-family: RobotoSlab;
-      font-size: 18px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.67;
-      letter-spacing: normal;
-      text-align: center;
-      color: $color_blackNight;
-      max-width: 180px;
+
 
       @media all and (min-width:768px) {
          max-width: 696.6px;
@@ -116,10 +116,10 @@
 }
 }
 
-.ittem-paragraph {
+.item-paragraph {
    width: 180px;
    height: 63px;
-   font-family: Roboto;
+   font-family: RobotoSlab;
    font-size: 18px;
    font-weight: normal;
    font-style: normal;
