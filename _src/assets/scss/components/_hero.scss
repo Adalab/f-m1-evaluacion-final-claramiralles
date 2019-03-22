@@ -24,7 +24,7 @@
     }
 }
 
-.anonymus__container {
+.tittle__container {
     text-align: center;
     width: 100%;
     background-blend-mode: multiply;
@@ -36,7 +36,7 @@
     justify-content: center;
   
 
-    & .anonymus__h1 {
+    & .tittle {
         min-height: 120px;
         width: 290px;
         height: 110px;
@@ -52,11 +52,7 @@
     }
 }
 
-.habitasse__container {
-    display: flex;
-    text-align: center;
-}
-.habitasse {
+.subtittle {
     width: 290px;
     height: 21px;
     font-family: Roboto;
@@ -69,6 +65,12 @@
     text-align: center;
     color: #ffffff;
 }
+
+.habitasse__container {
+    display: flex;
+    text-align: center;
+}
+
 
 .arrow__container {
     content: "";
