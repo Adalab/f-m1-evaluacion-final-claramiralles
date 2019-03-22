@@ -1,5 +1,11 @@
-// .menu-icon {
-    // float: left;
-    // top: 0%;
-    // left: 0%;
-// }
+.menu__container {
+    background-color: blue;
+    content: "";
+    width: 44px;
+    height: 44px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin-top: 13px;
+    margin-left: 13px;
+}
