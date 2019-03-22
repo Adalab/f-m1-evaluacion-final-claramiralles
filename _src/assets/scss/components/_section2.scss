@@ -1,21 +1,68 @@
 .wrapper {
-   height: 625px;
-   width: auto;
+   height: auto;
+   width: 100%;
+   margin: 0%;
+   padding: 0%;
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 125px 375px 125px;
+   grid-template-rows: 0.25fr 1fr 0.25fr;
+   text-align: center;
+   background-color: $color_iceBlue;
 }
 
 .tittle__container {
   grid-row-start: 1;
   grid-row-end: 2;
+  display: block;
   text-align: center;
+  min-width: 100% auto;
+  margin: 30px 15px;
+
+      @media all and (min-width:768px) {
+      min-width: 100% auto;  
+      margin: 30px 160px;
+      }
+
+      @media all and (min-width:1200px) {
+      min-width: 100% auto; 
+      margin: 60px 275px;
+}
+}
+
+.tittle {
+   width: 290px;
+   height: 30px;
+   font-family: RobotoSlab;
+   font-size: 24px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.25;
+   letter-spacing: normal;
+   text-align: center;
+   color: $color_blackNight;
+   width: 184px;
+   margin: 108px 68px;
+
+   @media all and (min-width:768px) {
+      width: 450px; 
+      margin: 210px 30px;  
+    
+      }
+
+      @media all and (min-width:1200px) {
+      width: 730px;   
+      margin: 60px 275px;
+
+}
 }
 
 .list__container {
    grid-row-start: 2;
    grid-row-end: 3;
    text-align: center;
+   margin-right: 55px;
+   margin-left: 55px;
 }
 
 .list {
@@ -42,6 +89,106 @@
 .list-item {
    text-decoration-style: none;
    list-style-type: none;
+   margin-top: 45px;
+   margin-bottom: 45px;
 }
 
+.ittem-tittle {
+      width: 184px;
+      height: 30px;
+      font-family: RobotoSlab;
+      font-size: 18px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      text-align: center;
+      color: $color_blackNight;
+      max-width: 180px;
+
+      @media all and (min-width:768px) {
+         max-width: 696.6px;
+   }
+
+      @media all and (min-width:1200px) {
+         max-width: 1037.6px;
+}
+}
+
+.ittem-paragraph {
+   width: 180px;
+   height: 63px;
+   font-family: Roboto;
+   font-size: 18px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.67;
+   letter-spacing: normal;
+   text-align: center;
+   color: $color_blackNight;
+}
+
+.button__div {
+   display: block;
+   width: 100%;
+   max-height: 25%;
+   padding: 0%;
+   margin: 0%;
+   text-align: center;
+}
+.button__container {
+   grid-row-start: 3;
+   grid-row-end: 4;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0%;
+   margin-bottom: 6%;
+   min-width: 184px;
+   height: 45px;
+   margin: 45px 68px 60px 45px;
+
+   @media all and (min-width:768px) {
+      min-width: 184px auto;
+      max-width: 184px auto;
+   } 
+
+   @media all and (min-width:1200px) {
+      min-width: 184px auto;
+      max-width: 184px auto;
+
+}
+}
+
+
+.button {
+   color: $color_whiteSnow;
+   background-color:$color_orangeBright;
+   max-width: 123px;
+   height: 30px;
+   font-family: Roboto;
+   font-size: 20px;
+   font-weight: 500;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 45px;
+   letter-spacing: normal;
+   text-align: center;
+   border-radius: 200px;
+   padding-bottom: 45px;
+   display: inline;
+
+   @media all and (min-width:768px) {
+      min-width: 184px auto;
+      max-width: 184px auto;
+   } 
+
+   @media all and (min-width:1200px) {
+      min-width: 184px auto;
+      max-width: 184px auto;
+}
+}
 
