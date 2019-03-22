@@ -1,69 +1,47 @@
 .wrapper {
-  width: 100vw;
-  max-height: 624px;
-  background-color: $color_iceBlue;
-  display: grid;
-  grid-template-columns: 624px;
-  grid-template-rows: 124.8px 374.4px 124.8px;
-  grid-template-areas:"top""center""bottom";
+   height: 625px;
+   width: auto;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 125px 375px 125px;
 }
 
-.header {
-   grid-area: top;
+.tittle__container {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
 }
 
-.reasons-to-purchase {
-   width: 290px;
-   height: 30px;
-   font-family: RobotoSlab;
-   font-size: 24px;
-   font-weight: bold;
-   font-style: normal;
-   font-stretch: normal;
-   line-height: 1.25;
-   letter-spacing: normal;
+.list__container {
+   grid-row-start: 2;
+   grid-row-end: 3;
    text-align: center;
-   color: $color_blackNight;
-   margin: 30px 15px 564px 15px;
 }
 
-.list-of-reasons {
-   margin: 0px;
-   padding: 0px;
-   grid-area: center;
+.list {
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-around;
+   align-content: space-around;
+
+   @media all and (min-width:768px) {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         align-content: space-around;
+   }
+
+   @media all and (min-width:1200px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-around;
+}
 }
 
-.items {
-   margin: 0px;
-   padding: 0px;
+.list-item {
+   text-decoration-style: none;
+   list-style-type: none;
 }
 
-.ut-sed-metus {
-   width: 184px;
-   height: 30px;
-   font-family: RobotoSlab;
-   font-size: 18px;
-   font-weight: bold;
-   font-style: normal;
-   font-stretch: normal;
-   line-height: 1.67;
-   letter-spacing: normal;
-   text-align: center;
-   color: $color_blackNight;
-   margin: 105px 68px 469px 68px;
-   grid-area: 2;
-}
 
-.curabitur-ac-erat {
-
-}
-
-.morbi-dictum {
-}
-
-.more-reasons__button{
-   grid-area: bottom;
-}
