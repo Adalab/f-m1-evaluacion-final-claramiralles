@@ -1,14 +1,32 @@
-.s1__container {
-    width: 320px;
+.section1__div {
+    min-width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0%;
+}
+.section1__container {
+    width: 100%;
     height: 376px;
     background-color: white;
     padding-left: 15px;
     padding-right: 15px;
+    text-transform: capitalize;   
+    margin: 30px 215px 316px 0px;   
+
+        @media all and (min-width:768px) {
+            min-width: 216px auto;
+            height: 30px;  
+            margin: 30px 513px 270px 0px;
+        }
+  
+        @media all and (min-width:1200px) {
+            min-width: 730px auto;
+            height: 45px;  
+            margin: 90px 275px 225px 275px;
+        }
 }
 
-.s1__h2 {
-    width: 90px;
-    height: 30px;
+.insomnia__item {
     font-family: Roboto;
     font-size: 14px;
     font-weight: normal;
@@ -16,13 +34,52 @@
     font-stretch: normal;
     line-height: 2.14;
     letter-spacing: normal;
-    color: $color_lightBlue;  
-    padding-top: 30px;        
+    color: $color_lightBlue;   
+    text-transform: capitalize;   
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    width: 100%;
+    height: 30px;
+    margin: 30px 215px 0px 0px; 
+
+    @media all and (min-width:768px) {
+        min-width: 216px auto;
+        height: 30px;  
+        margin: 30px 0px 0px 39px;
+        padding-left: 0%;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+
+    @media all and (min-width:1200px) {
+        min-width: 360px auto;
+        height: 30px;  
+        margin: 0px 645px 0px 0px;
+    }
 }
 
-.s1__h3 {
-    width: 290px;
-    height: 60px;
+// // .looking__container {
+// display: flex;
+// align-items: flex-start;    
+// justify-content: flex-start;
+// width: 290px;
+// height: 60px;
+// margin: 61px 15px 255px 15px;
+
+// @media all and (min-width:768px) {
+//     min-width: 216px auto;
+//     height: 30px;  
+//     margin: 0px 513px 1px 0px;
+// }
+
+// @media all and (min-width:1200px) {
+//     min-width: 730px auto;
+//     height: 45px;  
+//     margin: 0px 275px 30px 225px;
+// }
+
+.looking__item {
     font-family: RobotoSlab;
     font-size: 24px;
     font-weight: 700;
@@ -30,14 +87,42 @@
     font-stretch: normal;
     line-height: 1.25;
     letter-spacing: normal;
-    color: $color_blackNight;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    color: $color_blackNight; 
+    width: 100%;
+    display: flex;
+    align-items: flex-start;   
+    justify-content: flex-start;
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+
+    @media all and (min-width:768px) {
+        min-width: 216px auto;
+        height: 30px;  
+        margin-left: 0%;
+        padding-left: 0%;
+        margin: 1px 0px 0px 39px;
+        padding-top: 0%;
+
+    }
+    
+    @media all and (min-width:1200px) {
+        max-width: 650px auto;
+        height: 45px;  
+        margin: 0px 0px 0px 275px;
+        margin-left: 0%;
+        padding-left: 0%;
+
+    
+    }
+    
 }
 
-.s1__p {
-    width: 290px;
-    height: 120px;
+.looking__paragraph {
     font-family: Roboto;
     font-size: 18px;
     font-weight: normal;
@@ -46,13 +131,42 @@
     line-height: 1.67;
     letter-spacing: normal;
     color: $color_greySilver;
-    padding-top: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-top: 0%;
+    padding-top: 15px;
+    width: 100%;
+    height: 120px;
+    display: block;
+    text-align: left;
+
+    @media all and (min-width:768px) {
+        
+        max-width: 690px;
+        margin-left: 39px;
+        padding-left: 0%;
+       
+        margin-right: 39px;
+        padding-right: 0%;
+       
+        margin-top: 30px;
+        padding-top: 0%;
+
+        
+    }
+    
+    @media all and (min-width:1200px) {
+        margin-left: 0%;
+        padding-left: 0%;
+       
+        margin-top: 0%;
+        padding-top: 0%;
+
+    
+    }
 }
 
-.s1__button{
+.section1__button-container {
     margin-top: 30px;
     padding-bottom: 50px;
     color: $color_orangeBright;
@@ -65,7 +179,7 @@
     background-color: transparent;
 }
 
-.s1__button-text{
+.ssection1__button-text{
     width: 25px;
     height: 45px;
     font-family: Roboto;
